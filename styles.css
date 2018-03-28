@@ -232,7 +232,7 @@
 
 
 table {
-  border: 1px solid black;
+  /*border: 1px solid black;*/
   width: 100%;
   height: 100%;
   
@@ -246,8 +246,8 @@ table {
   cursor: default;
 }
 
-.itemApple{
-transform:scale(0.5);
+.itemFruits{
+transform:scale(0.5) !important ;
 animation-duration: 3s;
 animation-name: slidein;
 cursor: default;
@@ -268,7 +268,7 @@ cursor: default;
   margin: 70px 0 0 70px;
   width: 500px;
   height: 500px;
-  border: 1px solid black;
+  /*border: 1px solid black;*/
   transform:rotate(25deg);
 }
 /* */
@@ -279,6 +279,37 @@ cursor: default;
   margin: 156px 20px 0 70px;
   width: 500px;
   height: 500px;
-  border: 1px solid black;
+  /*border: 1px solid black;*/
   transform:rotate(264deg);
+}
+
+
+.matrizBanana {
+  position: absolute;
+  z-index: 8;
+  margin: 128px 61px 15px 101px;
+  width: 500px;
+  height: 500px;
+  /*border: 1px solid black;*/
+  transform:rotate(301deg);
+}
+
+.matrizBlueberry {
+  position: absolute;
+  z-index: 8;
+  margin: 201px 71px 15px 166px;
+  width: 500px;
+  height: 500px;
+  /*border: 1px solid black;*/
+  transform:rotate(147deg);
+}
+
+.matrizCherry {
+  position: absolute;
+  z-index: 8;
+  margin: 191px 71px 15px 125px;;
+  width: 500px;
+  height: 500px;
+  /*border: 1px solid black;*/
+  transform:rotate(298deg);
 }
